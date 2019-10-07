@@ -1,0 +1,114 @@
+body{
+    background-image: url("../img/club-hub-banner.jpg");
+    background-position: 100%;
+    background-color: grey;
+}
+
+#header h1{
+    font-size: 60px;
+    color: white;
+    letter-spacing: 10px;
+    font-family: "Bahnschrift Light Condensed";
+    text-align: center;
+}
+
+#navigation{
+    position: relative;
+}
+
+#navigation div{
+    margin: 10px 10px;
+} 
+
+.search{
+    border: 1px solid white;
+    background: rgba(255, 255, 255, 0.9);
+    display: inline-block;
+    text-align: center;
+    width: 280px;
+    height: 225px;
+    border-radius: 5px;
+    position: relative;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+.search a{
+    color: white;
+    padding-top: 5px;
+    border: 1px solid  rgb(0, 162, 255);
+    border-radius: 3px;
+    background-color: rgb(0, 162, 255);
+    text-align: center;
+    width: 60px;
+    height: 25px;
+    text-decoration: none;
+    position: absolute;
+    margin: 0;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.events{
+    border: 1px solid white;
+    background: rgba(255, 255, 255, 0.9);
+    display: inline-block;
+    text-align: center;
+    width: 280px;
+    height: 225px; 
+    border-radius: 5px;   
+    position: relative;
+    position: absolute;
+    top: 10%;
+    left: 39%;
+}
+
+.events a{
+    color: white;
+    padding-top: 5px;
+    border: 1px solid  rgb(0, 162, 255);
+    border-radius: 3px;
+    background-color: rgb(0, 162, 255);
+    text-align: center;
+    width: 90px;
+    height: 25px;
+    text-decoration: none;  
+    position: absolute;
+    margin: 0;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.other{
+    border: 1px solid white;
+    background: rgba(255, 255, 255, 0.9);
+    display: inline-block;
+    text-align: center; 
+    width: 280px;
+    height: 225px;
+    border-radius: 5px;
+    position: relative;
+    position: absolute;
+    top: 10%;
+    right: 15%;
+}
+
+.other a{
+    color: white;
+    padding-top: 5px;
+    border: 1px solid  rgb(0, 162, 255);
+    border-radius: 3px;
+    background-color: rgb(0, 162, 255);
+    text-align: center;
+    width: 50px;
+    height: 25px;
+    text-decoration: none;
+    position: absolute;
+    margin: 0;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
