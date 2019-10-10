@@ -13,7 +13,9 @@ body{
 }
 
 #navigation{
-    position: relative;
+    /*position: relative;*/
+    display: flex;
+    justify-content: center;
 }
 
 #navigation div{
@@ -28,10 +30,10 @@ body{
     width: 280px;
     height: 225px;
     border-radius: 5px;
-    position: relative;
+    /*position: relative;
     position: absolute;
     top: 10%;
-    left: 15%;
+    left: 15%;*/
 }
 
 .search a{
@@ -44,11 +46,11 @@ body{
     width: 60px;
     height: 25px;
     text-decoration: none;
-    position: absolute;
+    /*position: absolute;
     margin: 0;
     top: 78%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
 }
 
 .events{
@@ -59,10 +61,10 @@ body{
     width: 280px;
     height: 225px; 
     border-radius: 5px;   
-    position: relative;
+    /*position: relative;
     position: absolute;
     top: 10%;
-    left: 39%;
+    left: 39%;*/
 }
 
 .events a{
@@ -75,11 +77,11 @@ body{
     width: 90px;
     height: 25px;
     text-decoration: none;  
-    position: absolute;
+    /*position: absolute;
     margin: 0;
     top: 78%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
 }
 
 .other{
@@ -90,10 +92,10 @@ body{
     width: 280px;
     height: 225px;
     border-radius: 5px;
-    position: relative;
+    /*position: relative;
     position: absolute;
     top: 10%;
-    right: 15%;
+    right: 15%;*/
 }
 
 .other a{
@@ -106,9 +108,9 @@ body{
     width: 50px;
     height: 25px;
     text-decoration: none;
-    position: absolute;
+    /*position: absolute;
     margin: 0;
     top: 78%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
 }
